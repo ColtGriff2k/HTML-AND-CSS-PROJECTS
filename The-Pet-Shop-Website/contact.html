@@ -3,11 +3,16 @@
     <head>
         <title>Contact Us</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
-            <ul>
+        <nav class="nav-bar">
+            <ul id="nav-border">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
 
@@ -16,7 +21,7 @@
                 <!--HEADER-->
         <header>
             <div>
-                <h1>Contact Us!</h1>
+                <h1 class="animate-text">Contact Us!</h1>
             </div>
             <blockquote cite="https://www.kingjamesbibleonline.org/Ecclesiastes-3-21/">
                 "Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?"<br>
@@ -29,12 +34,12 @@
                <h3>
                 Please provide your contact information
                 and a brief message of your inquiry.
-               </h3>
+               </h3 id="contact-h3">
                <div>
                 <form>
                     <input type="text" placeholder="First Name">
                     <input type="text" placeholder="Last Name"><br>
-                    <input type="email" placeholder="Email"><br>
+                    <input type="email" placeholder="Email">
                     <input type="tel" placeholder="Phone Number"><br>
                     <input type="checkbox" id="Newsletter">
                     <label for="Newsletter">Would you like to receive 
