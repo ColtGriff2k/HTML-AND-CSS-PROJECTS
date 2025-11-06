@@ -1,0 +1,31 @@
+
+/*Underlying CSS theme for entire webdoc*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+/*NAVBAR*/
+
+
+/*HEADER*/
+
+
+/*IMAGES*/
+
+
+/*VIDEOS*/
+
+
+/*CONTACT FORM*/
+form input{
+    width: 25%;
+    margin: 1%;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+/*FOOTER*/
+
+
