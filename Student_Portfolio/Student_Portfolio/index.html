@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--HEAD-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Colton Griffith</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+<!--BODY-->
+
+<body class="background">
+    <!--NAVBAR-->
+    <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <!--Breaks inserted to add space between navbar and first heading-->
+    <br>
+    <br>
+    <!--BACKGROUND VIDEO-->
+    <div id="home">
+        <video autoplay muted loop id="A-i-video">
+            <source src="videos/a-i-clip.mp4" type="video/mp4">
+            <!--Display message if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <!--Video Text-->
+    <div class="video_text">
+        <h1 class="white-text">Colton Griffith's Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>
+                    "In any moment of decision, the best thing you can do is the right thing, the next best thing is the
+                    wrong thing, and the worst thing you can do is nothing.
+                </q>
+                <br>-Theodore Roosevelt
+                <br>
+                <br>My name is Colton Griffith. Welcome to my portfolio website. Here, you will get to know more
+                about me as I tell you about my background and experience.
+                <br>
+                <br>Thank you, for stopping by, and enjoy!
+            </p>
+        </strong>
+    </div>
+
+    <!--ABOUT SECTION-->
+    <div class="row" id="about">
+        <!--Left Column-->
+        <div class="column_2">
+            <img src="images/tuxedo_CG.jpg" alt="Image of Colton">
+        </div>
+        <!--Right Column-->
+        <div class="column_1">
+            <h1>About</h1>
+            <p>
+                I am a software developer who loves to code! My specialty is debugging code, finding and fixing errors.
+                <br>
+                <br>I am a graduate of <a rel="noopener" href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                    Academy</a>'s Ai Developer Boot Camp, and trained in the following website and programming
+                languages: HTML, CSS, Javascript, SQL, C# <strong></strong> and more.
+                <br>
+                <br> I am a full-stack developer and would love to work with you on you project. <a
+                    href="#contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+    <!--GITHUB SECTION-->
+    <div class="row" id="github">
+        <!--Left Column-->
+        <div class="column_1">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+            <p>
+                <a rel="noopener" href="https://github.com/ColtGriff2k" target="_blank">Colton's GitHub Profile</a>
+            </p>
+            </p>
+        </div>
+        <!--Right Column-->
+        <div class="column_2">
+            <a rel="noopener" href="https://github.com/ColtGriff2k" target="_blank"><img src="images/github-2.jpg"
+                    alt="GitHub Logo"></a>
+        </div>
+    </div>
+    <!--CONTACT SECTION-->
+    <div class="row" id="contact">
+        <!--Contact Image, Left Column-->
+        <div class="column_2 column_tall">
+            <img src="images/suit_CG.jpg" alt="Image of Colton">
+        </div>
+        <!--Contact Form, Right Column-->
+        <div class="column_1 column_tall">
+            <h1>Contact</h1>
+            <!--This form specifies where and how to send the form data; we are leaving it blank-->
+            <form action="https://formspree.io/f/mldadggb
+            " method="post">
+                <!--Here we are utilizing a 3rd Party service to submit the contact form data, insert your formspree endpoint in the action attribute-->
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="email" name="Email Address" placeholder="Please enter your email address here">
+                <label>Message:</label>
+                <input type="text" id="message" name="Message" placeholder="Please write your message here">
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <p>
+        <p class="center">
+            &copy Prosper Consulting Inc.,
+            <a rel="noopener" href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                Academy</a>
+        </p>
+        <br>
+        </p>
+    </footer>
+</body>
+
+</html>
