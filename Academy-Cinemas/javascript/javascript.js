@@ -68,7 +68,7 @@ if ($(document).scrollTop()>50){
 $(document).ready(function(){
     //On click when an element contains just the nav-link class and not the dropdown toggle and then
     //also close when when an element with the class .dropdown-item (each movie link) has been clicked
-    $("navbar-nav").on('click', 'nav-link:not(".dropdown-toggle"), .dropdown-item', function(){
+    $(".navbar-nav").on('click', '.nav-link:not(".dropdown-toggle"), .dropdown-item', function(){
         //Collapse the navbar when a link or dropdown item is clicked
         $(".navbar-collapse").collapse('hide');
     });
